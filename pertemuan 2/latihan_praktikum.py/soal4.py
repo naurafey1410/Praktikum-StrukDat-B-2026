@@ -20,5 +20,5 @@ for x in mahasiswa: #untuk setiap x pada mahasiswa
 print(rata) #menampilkan rata-rata
 
 #Tambahkan satu data mahasiswa baru
-mahasiswa ["A001"] = {"nama": "Naurah", "prodi": "Informatika", "ipk": 3.49} #menambahkan data baru pada list mahasiswa
+mahasiswa ["A004"] = {"nama": "Naurah", "prodi": "Informatika", "ipk": 3.49} #menambahkan data baru pada list mahasiswa
 print(mahasiswa)

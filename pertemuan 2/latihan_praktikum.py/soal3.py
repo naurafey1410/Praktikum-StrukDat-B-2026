@@ -6,10 +6,19 @@ mataKuliahSama = kelasA.intersection(KelasB) #untuk memilih mata kuliah sama yg 
 print(mataKuliahSama) #menampilkan output
 
 #mata kuliah yg diambil kelas A
-print(kelasA) #menampilkan mata kuliah yg diambil kelas A
+hanyaA = kelasA.difference(KelasB)
+print(hanyaA) #menampilkan mata kuliah yg diambil kelas A
 
 #seluruh mata kuliah unik yg diambil kelas A dan B
 mataKuliah = kelasA.union(KelasB) #menggabungkan mata kuliah yg diambil
 print(mataKuliah) #menampilkan seluruh mata kuliah
 
+irisan = kelasA & KelasB
+print(irisan)
+
+beda = kelasA - KelasB
+print(beda)
+
+unik = kelasA | KelasB
+print(unik)
 
